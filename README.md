@@ -69,4 +69,36 @@ On the Windows 10 machine, download the malicious exploit by visiting the websit
 
 After executing the malware, you can monitor the compromised Windows machine's status. In Kali Linux, you will see all the commands to be executed on the targeted Windows machine, as it is now under Kali's control.
 
-Please note that this guide is for educational and research purposes only. Always ensure that you have the necessary permissions and legal rights before performing any penetration testing or ethical hacking activities. Be aware of the potential legal and ethical implications of such activities.
+### Second Part
+
+Splunk Enterprise Setup and Log Monitoring Guide
+
+Prerequisites
+Splunk Enterprise: Ensure Splunk Enterprise is downloaded and installed on your system.
+Meterpreter: Access to Meterpreter on Kali Linux.
+
+Steps to Follow:
+Install Splunk Enterprise:
+
+Follow Splunk's official installation guide for your operating system.
+
+Access Splunk via Local Host:
+
+Open your web browser and access Splunk at localhost:8000.
+Log in using the credentials created during installation.
+Generate Logs with Meterpreter:
+
+In Kali Linux, use Meterpreter to execute specific commands.
+Monitor the generated logs in Splunk.
+Execute Malware on Windows:
+
+Run malware on the Windows machine to create logs.
+Review detailed process logs in Splunk, showcasing the affected activities and processes.
+Video Reference:
+For a visual guide and demonstration, refer to this Video Link - Log Monitoring with Splunk.
+
+
+Additional Notes:
+Configure Splunk to collect and index logs from both Kali Linux and the Windows machine.
+For detailed configuration, troubleshooting, and specific log types, consult Splunk's official documentation and community forums.
+The video serves as a visual guide for the steps mentioned in this README file.
